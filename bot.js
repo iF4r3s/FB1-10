@@ -30,11 +30,15 @@ bot1.on('message', message => {
 });
 
 
-bot1.on('ready', () => {
+bot1.on(`ready`, () => {
     let channel = bot1.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB1 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB1 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
@@ -63,13 +67,16 @@ bot2.on('message', message => {
 });
 
 
-bot2.on('ready', () => {
+bot2.on(`ready`, () => {
     let channel = bot2.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB2 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB2 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
-
 
 bot2.on('message', message => {
     if(message.author.bot) return;
@@ -96,11 +103,15 @@ bot3.on('message', message => {
 });
 
 
-bot3.on('ready', () => {
+bot3.on(`ready`, () => {
     let channel = bot3.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB3 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB3 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
@@ -129,11 +140,15 @@ bot4.on('message', message => {
 });
 
 
-bot4.on('ready', () => {
+bot4.on(`ready`, () => {
     let channel = bot4.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB4 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB4 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
@@ -162,11 +177,15 @@ bot5.on('message', message => {
 });
 
 
-bot5.on('ready', () => {
+bot5.on(`ready`, () => {
     let channel = bot5.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB5 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB5 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
@@ -195,11 +214,15 @@ bot6.on('message', message => {
 });
 
 
-bot6.on('ready', () => {
+bot6.on(`ready`, () => {
     let channel = bot6.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB6 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB6 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
@@ -228,11 +251,15 @@ bot7.on('message', message => {
 });
 
 
-bot7.on('ready', () => {
+bot7.on(`ready`, () => {
     let channel = bot7.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB7 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB7 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
@@ -261,11 +288,15 @@ bot8.on('message', message => {
 });
 
 
-bot8.on('ready', () => {
+bot8.on(`ready`, () => {
     let channel = bot8.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB8 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB8 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
@@ -294,11 +325,15 @@ bot9.on('message', message => {
 });
 
 
-bot9.on('ready', () => {
+bot9.on(`ready`, () => {
     let channel = bot9.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB9 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB9 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
@@ -327,11 +362,15 @@ bot10.on('message', message => {
 });
 
 
-bot10.on('ready', () => {
+bot10.on(`ready`, () => {
     let channel = bot10.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
-    setInterval(function(){
-        channel.send(`FB10 Spammer`)
-    }, 2000);
+  
+    for(let x = 0; x < 90000; x++) {
+      channel.send(`FB10 Message ${x}`)
+        .then(m => {
+          count++;
+        })
+    }
 });
 
 
