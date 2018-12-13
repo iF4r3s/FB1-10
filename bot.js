@@ -36,7 +36,7 @@ bot1.on(`ready`, () => {
     let channel = bot1.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB1 Message ${x}`)
+      channel.send(`**FB1 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -75,7 +75,7 @@ bot2.on(`ready`, () => {
     let channel = bot2.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB2 Message ${x}`)
+      channel.send(`**FB2 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -113,7 +113,7 @@ bot3.on(`ready`, () => {
     let channel = bot3.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB3 Message ${x}`)
+      channel.send(`**FB3 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -152,7 +152,7 @@ bot4.on(`ready`, () => {
     let channel = bot4.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB4 Message ${x}`)
+      channel.send(`**FB4 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -191,7 +191,7 @@ bot5.on(`ready`, () => {
     let channel = bot5.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB5 Message ${x}`)
+      channel.send(`**FB5 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -230,7 +230,7 @@ bot6.on(`ready`, () => {
     let channel = bot6.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB6 Message ${x}`)
+      channel.send(`**FB6 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -269,7 +269,7 @@ bot7.on(`ready`, () => {
     let channel = bot7.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB7 Message ${x}`)
+      channel.send(`**FB7 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -308,7 +308,7 @@ bot8.on(`ready`, () => {
     let channel = bot8.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB8 Message ${x}`)
+      channel.send(`**FB8 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -347,7 +347,7 @@ bot9.on(`ready`, () => {
     let channel = bot9.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB9 Message ${x}`)
+      channel.send(`**FB9 Message ${x}**`)
         .then(m => {
           count++;
         })
@@ -386,7 +386,7 @@ bot10.on(`ready`, () => {
     let channel = bot10.guilds.get("520354655604178958").channels.find(c => c.id == "520370626595258392");
   
     for(let x = 0; x < 90000; x++) {
-      channel.send(`FB10 Message ${x}`)
+      channel.send(`**FB10 Message ${x}**`)
         .then(m => {
           count++;
         })
